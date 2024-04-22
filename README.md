@@ -14,6 +14,7 @@ $$\prod_{p\leq x} \dfrac{N_p}{p} = \exp\left(\sum_{p\leq x} \log\left(\dfrac{N_p
 
 According to Mertens’ theorem on prime numbers, the sum $`\sum_{p\leq x} \log\left(\dfrac{N_p}{p}\right)`$ is asymptotically equivalent to $`C\log{x^r}`$, where $`C`$ is a constant.
 Now let’s consider the limit $`B_E=\lim_{s\to1}\dfrac{L(E,s)}{(s-1)^r}`$. 
+
 Substituting the Dirichlet series for $`L(E, s)`$ and expanding $`(s-1)^r`$ in a Taylor series:
 
 $$B_E = \lim_{s\to1} \dfrac{\sum_{n=1}^{\infty} \dfrac{a_n}{ns}}{(s-1)r}
